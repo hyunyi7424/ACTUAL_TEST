@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0",user-scalable=no;>
+    <!--open Graph (face book,Linkedin)-->
+    <meta property="og:type" content="website."/>
+    <meta property="og:title" content="김현이 포트폴리오입니다."/>
+    <meta property="og:image" content="img/fun-coding-mark.png"/>
+    <meta property="og:url" content="http://www.fun-coding.org"/>
+<!--twitter card(Twitter)-->
+<meta name="twitter:card" content="summary"/>
+<!--card종류:summary,photo,player-->
+<meta name="twitter:title" content="김현이 포트폴리오 사이트입니다."/>
+<meta name="twitter:description" content="김현이 포트폴리오 리스트"/>
+<meta name="twitter:image" content="img/fun-coding-mark.png"/>
+<meta name="twitter:url" content="http://www.fun-coding.org"/>
+<!--일반적인 fabicon 웹사이트를 대표하는 아이콘 설정-->
+<link rel="icon" href="img/fun-coding.ico"/>
+<!--아이폰용 fabicon설정-->
+<link rel="apple-touch-icon" href="img/fun-coding.ico"/>
+<!--인터넷익스플로러용 fabicon 설정-->
+<link rel="shortcut icon" type="image/x-icon" href="img/fun-coding.ico"/>
+
+<!--CSS Reset 먼저 초기화시켜주기 css링크전에!-->
+<!-- CSS Reset(1), style.css, 아이콘 폰트, 웹페이지 사용 폰트 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+<!-- https://fontawesome.com/start -->
+<script src="https://kit.fontawesome.com/f1def33959.js" crossorigin="anonymous"></script>
+<!-- Spoca Han Sans Neo: https://spoqa.github.io/spoqa-han-sans/ko-KR/ -->
+<link href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/style.css" />
+<title>김현이포트폴리오</title>
+
+</head>
+<body>
+    <!--CSS 작명규칙 (BEM Block Element Modifier)-->
+    <!-- - : 단어와 단어사이에는 하이픈 예:head-container-blue
+     _ :~의 하위요소(예:head-container_head-brand)
+     대문자는 쓰지않기
+     -- : ~의 상태를 나타낼 때 (예: head-container_head-bread--nolink)
+    -->
+    <header>
+        <div class="inner head-container">
+          <div class="head-brand"><a href="https://www.fun-coding.org">잔재미코딩</a></div>
+          <div class="head-blog"><a href="https://www.fun-coding.org/daveblog.html">잔재미코딩 블로그 모음</a></div>
+        </div>
+      </header>
+  
+      <!-- 메인 이미지 섹션 -->
+      <section class="main">
+        <div class="main-container">
+          <div class="inner title-container">
+            <div class="title">강의에 집중합니다</div>
+            <div class="message">
+              정보는 많지만, <br />
+              필요한 정보만 잘 정리된 자료를 찾기 어렵고,<br />
+              빠르게 이해하기가 쉽지 않고,<br />
+              내가 익힐 때, 가장 효과가 좋았던 방법으로
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section>
+        <div class="inner skill-box">
+          <div class="skill">
+            <i class="fab fa-python skill-icon python-style"></i>
+            <div class="skill-title">
+              <div class="maintitle">업무 자동화</div>
+              <div class="subtitle">크롤링/자동매매</div>
+            </div>
+          </div>
+          <div class="skill">
+            <i class="far fa-chart-bar skill-icon analysis-style"></i>
+            <div class="skill-title">
+              <div class="maintitle">데이터 분석</div>
+              <div class="subtitle">SQL/머신러닝</div>
+            </div>
+          </div>
+          <div class="skill">
+            <i class="fab fa-app-store-ios skill-icon ai-style"></i>
+            <div class="skill-title">
+              <div class="maintitle">AI</div>
+              <div class="subtitle">인공지능 활용</div>
+            </div>
+          </div>
+          <div class="skill">
+            <i class="fab fa-vuejs skill-icon vue-style"></i>
+            <div class="skill-title">
+              <div class="maintitle">풀스택</div>
+              <div class="subtitle">웹/앱 서비스</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="inner">
+          <div class="section-container">
+            <div class="section-title-container">
+              <div class="roadmap-title">잔재미코딩 관련 블로그 및 서적</div>
+            </div>
+            <div class="arrow-container">
+              <i class="slide-prev fas fa-chevron-circle-left" id="0"></i>
+              <i class="slide-next fas fa-chevron-circle-right" id="0"></i>
+            </div>
+          </div>
+          <ul class="class-list" data-position="0" id="0">
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/blog.jpg" alt="잔재미코딩 블로그" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">학습방법</div>
+                  <div class="class-container-skill-level">블로그</div>
+                </div>
+                <div class="class-maintitle">IT는 배우는 방법을 익혀야합니다</div>
+                <div class="class-subtitle">비전공자가 IT를 배우는 전략</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/art/NewCommer.jpg" alt="잔재미코딩 블로그" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">학습방법</div>
+                  <div class="class-container-skill-level">블로그</div>
+                </div>
+                <div class="class-maintitle">뼛속까지 문과생이 개발자가 되기까지</div>
+                <div class="class-subtitle">비전공자가 IT를 배우는 전략</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/broadIT3.png" alt="잔재미코딩 서적" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">출판서적</div>
+                  <div class="class-container-skill-level">서적</div>
+                </div>
+                <div class="class-maintitle">누구나 쓱 읽고, 싹 이해하는 IT 핵심 기술</div>
+                <div class="class-subtitle">입문자를 위한 IT 큰 그림 이해하기</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/pythonbook.png" alt="잔재미코딩 서적" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">출판서적</div>
+                  <div class="class-container-skill-level">서적</div>
+                </div>
+                <div class="class-maintitle">왕초보를 위한 파이썬</div>
+                <div class="class-subtitle">입문자를 위한 파이썬 프로그래밍</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/linuxbook.png" alt="잔재미코딩 서적" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">출판서적</div>
+                  <div class="class-container-skill-level">서적</div>
+                </div>
+                <div class="class-maintitle">리눅스 커널 프로그래밍</div>
+                <div class="class-subtitle">고급 개발자를 위한 리눅스 커널 분석과 개발</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="inner">
+          <div class="section-container">
+            <div class="section-title-container">
+              <div class="roadmap-title">데이터 분석/예측 로드맵 <span class="roadmap-desc">(데이터분석가/과학자 커리어 과정)</span></div>
+            </div>
+            <div class="arrow-container">
+              <i class="slide-prev fas fa-chevron-circle-left" id="0"></i>
+              <i class="slide-next fas fa-chevron-circle-right" id="0"></i>
+            </div>
+          </div>
+          <ul class="class-list" data-position="0" id="0">
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/ljh_python.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">파이썬/크롤링</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">파이썬 입문과 크롤링기초 부트캠프</div>
+                <div class="class-subtitle">프로그래밍과 파이썬 기초 및 데이터를 프로그래밍으로 다루기</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/ljh_scrapy.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">크롤링중급</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">파이썬과 Selenium / Scrapy</div>
+                <div class="class-subtitle">현존 최강 크롤링 기술과 프로그래밍 중급</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/mysql_python.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">SQL/데이터베이스</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">SQL/DB(MySQL) 기본과 활용</div>
+                <div class="class-subtitle">데이터를 다루는 데이터베이스 기초와 파이썬 기반 활용</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/pandas.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">pandas/plotly</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">처음하는 파이썬 데이터 분석</div>
+                <div class="class-subtitle">데이터의 전처리부터 pandas, 최신 시각화 plotly, 데이터 분석 이론까지</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/progressing_open2.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">머신러닝</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">처음하는 머신러닝과 통계 기본</div>
+                <div class="class-subtitle">데이터 예측을 위한 머신러닝과 통계 기본</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="inner">
+          <div class="section-container">
+            <div class="section-title-container">
+              <div class="roadmap-title">데이터 분석/예측 로드맵 <span class="roadmap-desc">(데이터분석가/과학자 커리어 과정)</span></div>
+            </div>
+            <div class="arrow-container">
+              <i class="slide-prev fas fa-chevron-circle-left" id="0"></i>
+              <i class="slide-next fas fa-chevron-circle-right" id="0"></i>
+            </div>
+          </div>
+          <ul class="class-list" data-position="0" id="0">
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/ljh_python.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">파이썬/크롤링</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">파이썬 입문과 크롤링기초 부트캠프</div>
+                <div class="class-subtitle">프로그래밍과 파이썬 기초 및 데이터를 프로그래밍으로 다루기</div>
+              </div>
+            </li>
+            <li class="class-card">
+              <img src="https://www.fun-coding.org/style/images/ljh_scrapy.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">크롤링중급</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">파이썬과 Selenium / Scrapy</div>
+                <div class="class-subtitle">현존 최강 크롤링 기술과 프로그래밍 중급</div>
+              </div>
+            </li>
+            <li class="class-card"><!--HTML5에서는 data-변수이름-->
+              <img src="https://www.fun-coding.org/style/images/mysql_python.png" alt="잔재미코딩 강의" style="width: 100%" />
+              <div class="class-container">
+                <div class="class-container-skill">
+                  <div class="class-container-skill-text">SQL/데이터베이스</div>
+                  <div class="class-container-skill-level">온라인 강의</div>
+                </div>
+                <div class="class-maintitle">SQL/DB(MySQL) 기본과 활용</div>
+                <div class="class-subtitle">데이터를 다루는 데이터베이스 기초와 파이썬 기반 활용</div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+      <!-- footer 를 넣을 예정-->
+      <footer>
+        
+        <div class="inner">
+            <div class="footer-message">합리적인 분들과 좋은 컨텐츠가 지속될 수 있는 시스템을 지향합니다.</div>
+            <div class="footer-contact">컨택: dream@fun-coding.org</div>
+            <div class="footer-copyright">Copyright 2022 ⓒ All rights reserved.</div>
+        </div>
+      </footer>
+      <a id="backtotop" class="show">
+        <!--<i class="fa-duotone fa-circle-chevron-up"></i>-->
+      </a>
+      <script src="js/main.js"></script>
+    </body>
+  </html>
+  
